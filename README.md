@@ -11,7 +11,7 @@
 > - **Features:** Swift has several unique features which seperate it from other languages:
 >     - **Scoping / Accesibility**: In swift there are 5 different types you can apply to symbols to control access open, public, internal, fileprivate, and private. However unlike most langauges access controls ignore inheritance. Fileprivate is a little unique and allows the symbol to only be accesed within the file.
 >     - **Simple Syntax:** Many basic types have been added to the languages core. For instance strings are invisibly connected to the NSString library and can be concatenated simply using the + operator
->     - **Protocals:** as with clojure swift has support for some protocal oriented programming. Protocals allow for the extension of classes without ever having to have access to the original class. Protocols can be created in isolation and then be extended later for specific classes, this use of generic programming lends itself well to swift's flexability. 
+>     - **Protocols:** as with clojure swift has support for some protocol oriented programming. Protocals allow for the extension of classes without ever having to have access to the original class. Protocols can be created in isolation and then be extended later for specific classes, this use of generic programming lends itself well to swift's flexability. 
 
 ## About the syntax
 
@@ -74,16 +74,23 @@ func isEven(number: Int) -> Bool {
 > - Swift Intermediate Language Generation
 > - Swift Intermediate Language Optimizations <br />
 > If you install the swift compiler from their website and the other tools they have available you can enter a REPL in your terminal to practice using the language.
+> *Other Tools:* There are many different package / dependency managers for Swift one that I found interesting was cocoa
 
 ## About the standard library
 
 > _Give some examples of the functions and data structures
 > offered by the standard library_.
+> As with most modern programming langauges the standard library contains many useful functions and data types to help in everyday programming. The Swift Standard Library is unique in that it includes various protocols that can be used to describe common abstractions.  Here are a few examples of what comes in the Swift Standard Library:
+> - Fundatmental Data Types: Int, Double, String etc
+> - Commonly Used Data Structures: Arrays, Sets and Dictionaries
+> - Functions: max(), min(), print(), readline(), swap(), type()
+> - Protocols: Collection and Equatable
 
 ## About open source library
 
 > _Describe at least one contribution by the open source
 community written in the language._
+> There are thousands of amazing open source projects made using Swift however one of the biggest and most recognizable is of course Firefox. The iOS version of the popular browser Mozzila Firefox is written and Swift and can be found [here](https://github.com/mozilla-mobile/firefox-ios).
 
 # Analysis of the language
 
