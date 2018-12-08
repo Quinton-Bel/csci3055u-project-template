@@ -16,10 +16,32 @@
 ## About the syntax
 
 > _give some code snippet of the language_
-*Variable Declaration*
-
-*Iteration*
-
+**Variable Declaration**
+```swift
+    ///Declare a variable
+    var name = "Quinton"
+    ///Declare a constant
+    let five = 5
+    ///Declare accessability of variable
+    private var privName = "Mirriam"
+    ///or fileprivate
+    fileprivate var fileprivName = "Beth"
+```
+**Conditionals**
+```swift
+    var favFruit = "apple"
+    if !(favFruit=="apple") {
+        print("Your fav fruit is crummy!")
+    }
+```
+**Iteration**
+*For form*
+```swift
+for i in 1...10 {
+    print(i)
+}
+```
+*While form*
 ```swift
 var i = 1
 while i <= 10 {
@@ -27,6 +49,15 @@ while i <= 10 {
     i = i + 1
 }
 ```
+*Repeat form (do-while in most languages)*
+```swift
+var i = 1
+repeat {
+    print(i)
+    i = i + 1
+} while i < 10
+```
+**Iteration**
 
 ## About the tools
 
