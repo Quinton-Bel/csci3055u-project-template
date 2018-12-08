@@ -88,9 +88,8 @@ func isEven(number: Int) -> Bool {
 
 ## About open source library
 
-> _Describe at least one contribution by the open source
-community written in the language._
-> There are thousands of amazing open source projects made using Swift however one of the biggest and most recognizable is of course Firefox. The iOS version of the popular browser Mozzila Firefox is written and Swift and can be found [here](https://github.com/mozilla-mobile/firefox-ios).
+> **Open Source Library:** There are many useful open source libraries built for Swift using Swift. One that I found interesting was [this](https://github.com/SwiftyJSON/SwiftyJSON) JSON parser that helps to simplify that (what I find to be) quite complex task of dealing with JSON in swift. By default parsing JSON can be tricky because Swift is very strict about types, h<br />
+> **Other Open Source Projects:** There are thousands of amazing open source projects made using Swift however one of the biggest and most recognizable is of course Firefox. The iOS version of the popular browser Mozzila Firefox is written and Swift and can be found [here](https://github.com/mozilla-mobile/firefox-ios).
 
 # Analysis of the language
 
