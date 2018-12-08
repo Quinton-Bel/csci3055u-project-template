@@ -41,7 +41,15 @@ community written in the language._
 
 # Analysis of the language
 
-> _Organize your report according to the project description
-document_.
+> 1. The style of programming supported by the language: functional vs procedural programming
+> 2. The ability to perform meta-programming such as macros
+> 3. Symbol resolution and its support for closure
+> 4. Scoping rules supported by the language: lexical vs dynamic scoping
+> 5. Functional programming constructs either as part of the language or supported by the standard library of the runtime.
+> 6. Its type system: static vs dynamic types
+> 7. Strengths and weaknesses of the language
+
+
+
 
 
