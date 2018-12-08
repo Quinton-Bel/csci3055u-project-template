@@ -7,9 +7,10 @@
 
 > Swift was specifically developed for the Apple ecosystem and supports iOS, macOS, watchOS, tvOS, Linux and z/OS. Swift is a general-purpose, multi-paradigm, compiled programming language. Since it is multi-paradigm it means it supports many different many different programming paradigms. In the case of Swift it supports functional programming paradigms as well as object oriented paradigms and generic programming paradigms. This lends to Swifts incredible versatility.
 >
-> - Swift's development did not begin until 2010. Chris Lattener was the lead developer on the project at the time and it wasn't until the project grew that other apple engeneers were brought on board. Chris has stated in the past that he took inspiration "from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list" when developing the programming features of swift. It wasnt until 2014 at the Apple Worldwide Developers Conference that people were exposed to swifts capabilties and the first beta of Swift was released. The first official release of swift wasn't until later that year in September of 2014.
+> - History: Swift's development did not begin until 2010. Chris Lattener was the lead developer on the project at the time and it wasn't until the project grew that other apple engeneers were brought on board. Chris has stated in the past that he took inspiration "from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list" when developing the programming features of swift. It wasnt until 2014 at the Apple Worldwide Developers Conference that people were exposed to swifts capabilties and the first beta of Swift was released. The first official release of swift wasn't until later that year in September of 2014.
 
-> - Some interesting features
+> - Features: Swift has several unique features which seperate it from other languages:
+
 
 ## About the syntax
 
