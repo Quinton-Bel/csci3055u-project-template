@@ -88,7 +88,20 @@ func isEven(number: Int) -> Bool {
 
 ## About open source library
 
-> **Open Source Library:** There are many useful open source libraries built for Swift using Swift. One that I found interesting was [this](https://github.com/SwiftyJSON/SwiftyJSON) JSON parser that helps to simplify that (what I find to be) quite complex task of dealing with JSON in swift. By default parsing JSON can be tricky because Swift is very strict about types, h<br />
+> **Open Source Library:** There are many useful open source libraries built for Swift using Swift. One that I found interesting was [this](https://github.com/SwiftyJSON/SwiftyJSON) JSON parser that helps to simplify that quite complex task of dealing with JSON in swift. By default parsing JSON can be tricky because Swift is very strict about types, however with this parser those difficulties go away which leads to fast and easy development. Below I have an example of just how much easier it can be (Example from libraries GitHub).<br />
+```swift
+if let statusesArray = try? JSONSerialization.jsonObject(with: data, options: .allowFragments) as? [[String: Any]],
+    let user = statusesArray[0]["user"] as? [String: Any],
+    let username = user["name"] as? String {
+    // Finally we got the username
+}
+```
+```swift
+let json = JSON(data: dataFromNetworking)
+if let userName = json[0]["user"]["name"].string {
+  //Now you got your value
+}
+```
 > **Other Open Source Projects:** There are thousands of amazing open source projects made using Swift however one of the biggest and most recognizable is of course Firefox. The iOS version of the popular browser Mozzila Firefox is written and Swift and can be found [here](https://github.com/mozilla-mobile/firefox-ios).
 
 # Analysis of the language
