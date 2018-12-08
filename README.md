@@ -9,7 +9,9 @@
 >
 > - History: Swift's development did not begin until 2010. Chris Lattener was the lead developer on the project at the time and it wasn't until the project grew that other apple engeneers were brought on board. Chris has stated in the past that he took inspiration "from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list" when developing the programming features of swift. It wasnt until 2014 at the Apple Worldwide Developers Conference that people were exposed to swifts capabilties and the first beta of Swift was released. The first official release of swift wasn't until later that year in September of 2014.
 > - Features: Swift has several unique features which seperate it from other languages:
->     - Scoping / Accesibility: 
+>     - Scoping / Accesibility: In swift there are 5 different types you can apply to symbols to control access open, public, internal, fileprivate, and private. However unlike most langauges access controls ignore inheritance. Fileprivate is a little unique and allows the symbol to only be accesed within the file.
+>     - Simple Syntax: Many basic types have been added to the languages core. For instance strings are invisibly connected to the NSString library and can be concatenated simply using the + operator
+>     -Protocals: as with clojure swift has support for some protocal oriented programming. Protocals allow for the extension of classes without ever having to have access to the original class. Protocols can be created in isolation and then be extended later for specific classes, this use of generic programming lends itself well to swift's flexability. 
 
 ## About the syntax
 
