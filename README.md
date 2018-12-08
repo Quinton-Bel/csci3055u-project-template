@@ -57,11 +57,23 @@ repeat {
     i = i + 1
 } while i < 10
 ```
-**Iteration**
-
+**Functions**
+```swift
+func isEven(number: Int) -> Bool {
+    if number % 2 == 0 {
+        return true
+    } else {
+        return false
+    }
+}
+```
 ## About the tools
 
-> _Describe the compiler or interpreter needed_.
+> Swift uses its own unique compiler based on the LLVM compiler framework. The swift compiler operates very similarly to others but with a few unique expections.
+> - Clang importer
+> - Swift Intermediate Language Generation
+> - Swift Intermediate Language Optimizations
+> If you install the swift compiler from their website and the other tools they have available you can enter a REPL in your terminal to practice using the language.
 
 ## About the standard library
 
