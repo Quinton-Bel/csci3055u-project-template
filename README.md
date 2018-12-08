@@ -16,13 +16,16 @@
 ## About the syntax
 
 > _give some code snippet of the language_
+*Variable Declaration*
 
-*Let form*
+*Iteration*
 
-```clojure
-(let [x 10
-      y 20]
-  (+ x y))
+```swift
+var i = 1
+while i <= 10 {
+    print(i)
+    i = i + 1
+}
 ```
 
 ## About the tools
