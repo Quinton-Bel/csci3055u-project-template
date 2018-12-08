@@ -34,7 +34,7 @@
         print("Your fav fruit is crummy!")
     }
 ```
-**Iteration**
+**Iteration** 
 *For form*
 ```swift
 for i in 1...10 {
@@ -72,7 +72,7 @@ func isEven(number: Int) -> Bool {
 > Swift uses its own unique compiler based on the LLVM compiler framework. The swift compiler operates very similarly to others but with a few unique expections.
 > - Clang importer
 > - Swift Intermediate Language Generation
-> - Swift Intermediate Language Optimizations
+> - Swift Intermediate Language Optimizations 
 > If you install the swift compiler from their website and the other tools they have available you can enter a REPL in your terminal to practice using the language.
 
 ## About the standard library
