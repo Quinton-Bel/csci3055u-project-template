@@ -45,11 +45,6 @@ func isEven(number: Int) -> Bool {
 }
 print(isEven(number: 10))
 
-//Arrays
-var someNames:[String] = ["Jason", "Jackson", "Johnson"]
-for i in someNames{
-    print(i)
-}
 ///Adding elements to an array
 someNames.append("Jasper")
 
