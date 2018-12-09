@@ -71,9 +71,9 @@ func isEven(number: Int) -> Bool {
 > Swift uses its own unique compiler based on the LLVM compiler framework. The swift compiler operates very similarly to others but with a few unique expections.
 > - Clang importer
 > - Swift Intermediate Language Generation
-> - Swift Intermediate Language Optimizations <br />
-> If you install the swift compiler from their website and the other tools they have available you can enter a REPL in your terminal to practice using the language. <br />
-> *Other Tools:* 
+> - Swift Intermediate Language Optimizations<br />
+> If you install the swift compiler from their website and the other tools they have available you can enter a REPL in your terminal to practice using the language.<br />
+> **Other Tools:** 
 > - There are many different package / dependency managers for Swift one that I found interesting was Cocoa 
 > - There are also [online interpreters](http://online.swiftplayground.run/) that can run Swift code. For begginers these are great tools because you dont have to mess around with the setup and still get to use the language <br />
 
