@@ -73,11 +73,10 @@ func isEven(number: Int) -> Bool {
 > - Swift Intermediate Language Generation
 > - Swift Intermediate Language Optimizations <br />
 > If you install the swift compiler from their website and the other tools they have available you can enter a REPL in your terminal to practice using the language.
-> *Other Tools:* There are many different package / dependency managers for Swift one that I found interesting was cocoa
+> *Other Tools:* There are many different package / dependency managers for Swift one that I found interesting was Cocoa
 
 ## About the standard library
 
-> _Give some examples of the functions and data structures
 > offered by the standard library_.
 > As with most modern programming langauges the standard library contains many useful functions and data types to help in everyday programming. The Swift Standard Library is unique in that it includes various protocols that can be used to describe common abstractions.  Here are a few examples of what comes in the Swift Standard Library:
 > - Fundatmental Data Types: Int, Double, String etc
@@ -106,16 +105,16 @@ if let userName = json[0]["user"]["name"].string {
 # Analysis of the language
 
 > **1. The style of programming supported by the language: functional vs procedural programming** <br />
-Swift is a multi-paradigm programming language. This means that it is not distinctly functional or procedural. However with this in mind it certainly leans to the object-oriented procedural side of things. It has a lot of functional programming features that would allow one to program that way Swift immutable data structures like you would see in other functional programming lanuages using the let keyword. Swift has first class functions, functions act like data the same way values do. Lastly Swift has good function chaining syntax which allows one to quickly chain together many functions. <br />
+> Swift is a multi-paradigm programming language. This means that it is not distinctly functional or procedural. However with this in mind it certainly leans to the object-oriented procedural side of things. It has a lot of functional programming features that would allow one to program that way Swift immutable data structures like you would see in other functional programming lanuages using the let keyword. Swift has first class functions, functions act like data the same way values do. Lastly Swift has good function chaining syntax which allows one to quickly chain together many functions. <br />
 > **2. The ability to perform meta-programming such as macros** <br />
-Swift doesn't directly support macros like objective c however the extensions and protocol framwork allow for "similar" functionality. The reality is a lot of boiler plate code has to be written and rewritten throughout ones program and any modifications made to the original protocols will need to be tracked through the entire program. Some people have worked on open-source projects to fix this issue. I found one useful [Sourcery](https://github.com/krzysztofzablocki/Sourcery) which helps to avoid a lot of this repetetive work. <br />
+> Swift doesn't directly support macros like objective c however the extensions and protocol framwork allow for "similar" functionality. The reality is a lot of boiler plate code has to be written and rewritten throughout ones program and any modifications made to the original protocols will need to be tracked through the entire program. Some people have worked on open-source projects to fix this issue. I found one useful [Sourcery](https://github.com/krzysztofzablocki/Sourcery) which helps to avoid a lot of this repetetive work. <br />
 > **3. Symbol resolution and its support for closure** <br />
+> Swift suports similarly to block in C and Objective-C. In Swift if you want to create a closure you have to surround your potential function block with {} and assign the closure to some variable. Any function and scope can be converted into a unique closure. When converting a function to a closure you must remove the function declaration and use the **in** keyword as a  part of the closure declaration. If this function has no return value and no input variables we do not need to use the **in** keyword. See the code example for a better idea of how this works. <br />
 > **4. Scoping rules supported by the language: lexical vs dynamic scoping** <br />
+>  <br />
 > **5. Functional programming constructs either as part of the language or supported by the standard library of the runtime.** <br />
+>  <br />
 > **6. Its type system: static vs dynamic types** <br />
+> Swift is statically typed with no exceptions. Even extensions which are as close as one can get to a dynamic class have to be writen before compile time. However if you use Coaco than you gain access to the objective-c runtime enviroment and can therefor use its dynamic classes.
 > **7. Strengths and weaknesses of the language** <br />
-
-
-
-
-
+>  Swifts biggest strength<br />
