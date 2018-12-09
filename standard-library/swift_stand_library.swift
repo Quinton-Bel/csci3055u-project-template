@@ -2,6 +2,9 @@
 ///For more information on the Swift Standard Library Visit https://developer.apple.com/documentation/swift/swift_standard_library
 
 ///Important Fundamental Data Types
+var testInt: Int
+var testString: String
+var testDouble: Double
 
 ///Arrays
 var someNames:[String] = ["Jason", "Jackson", "Johnson"]
