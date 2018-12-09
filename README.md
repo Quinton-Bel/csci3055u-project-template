@@ -106,13 +106,14 @@ if let userName = json[0]["user"]["name"].string {
 
 # Analysis of the language
 
-> 1. The style of programming supported by the language: functional vs procedural programming
-> 2. The ability to perform meta-programming such as macros
-> 3. Symbol resolution and its support for closure
-> 4. Scoping rules supported by the language: lexical vs dynamic scoping
-> 5. Functional programming constructs either as part of the language or supported by the standard library of the runtime.
-> 6. Its type system: static vs dynamic types
-> 7. Strengths and weaknesses of the language
+> 1. The style of programming supported by the language: functional vs procedural programming <br />
+Swift is a multi-paradigm programming language. This means that it is not distinctly functional or procedural. However with this in mind it certainly leans to the object-oriented procedural side of things. It has a lot of functional programming features that would allow one to program that way Swift immutable data structures like you would see in other functional programming lanuages using the let keyword. Swift has first class functions, functions act like data the same way values do. Lastly Swift has good function chaining syntax which allows one to quickly chain together many functions. <br />
+> 2. The ability to perform meta-programming such as macros <br />
+> 3. Symbol resolution and its support for closure <br />
+> 4. Scoping rules supported by the language: lexical vs dynamic scoping <br />
+> 5. Functional programming constructs either as part of the language or supported by the standard library of the runtime. <br />
+> 6. Its type system: static vs dynamic types <br />
+> 7. Strengths and weaknesses of the language <br />
 
 
 
