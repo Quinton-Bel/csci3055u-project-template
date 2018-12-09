@@ -76,7 +76,6 @@ func isEven(number: Int) -> Bool {
 > If you install the swift compiler from their website and the other tools they have available you can enter a REPL in your terminal to practice using the language.<br />
 
 > **Other Tools:** 
-
 > - There are many different package / dependency managers for Swift one that I found interesting was Cocoa 
 > - There are also [online interpreters](http://online.swiftplayground.run/) that can run Swift code. For begginers these are great tools because you dont have to mess around with the setup and still get to use the language <br />
 
@@ -111,15 +110,21 @@ if let userName = json[0]["user"]["name"].string {
 
 > **1. The style of programming supported by the language: functional vs procedural programming** <br />
 > Swift is a multi-paradigm programming language. This means that it is not distinctly functional or procedural. However with this in mind it certainly leans to the object-oriented procedural side of things. It has a lot of functional programming features that would allow one to program that way Swift immutable data structures like you would see in other functional programming lanuages using the let keyword. Swift has first class functions, functions act like data the same way values do. Lastly Swift has good function chaining syntax which allows one to quickly chain together many functions. <br />
+
 > **2. The ability to perform meta-programming such as macros** <br />
 > Swift doesn't directly support macros like objective c however the extensions and protocol framwork allow for "similar" functionality. The reality is a lot of boiler plate code has to be written and rewritten throughout ones program and any modifications made to the original protocols will need to be tracked through the entire program. Some people have worked on open-source projects to fix this issue. I found one useful [Sourcery](https://github.com/krzysztofzablocki/Sourcery) which helps to avoid a lot of this repetetive work. <br />
+
 > **3. Symbol resolution and its support for closure** <br />
 > Swift suports similarly to block in C and Objective-C. In Swift if you want to create a closure you have to surround your potential function block with {} and assign the closure to some variable. Any function and scope can be converted into a unique closure. When converting a function to a closure you must remove the function declaration and use the **in** keyword as a  part of the closure declaration. If this function has no return value and no input variables we do not need to use the **in** keyword. See the code example for a better idea of how this works. <br />
+
 > **4. Scoping rules supported by the language: lexical vs dynamic scoping** <br />
 >  Swift is for the most part dymic scoping. With the use of closures and the **let** keyword it is possible to implment lexical scoped scoping. <br />
+
 > **5. Functional programming constructs either as part of the language or supported by the standard library of the runtime.** <br />
->  <br />
+>  There are several of functional programming contructs built into Swift. Firstly like most functional programming languages you can use  **closures**, **extensions** and the **let** keyword to create what is basically lexical scoping. There is also the idea of **function chaining** which is a very important concept in Swift which allows you to combine and "chain" together several functions at once. Lastly through **protocols** and **extensions** you can perform operations similarly to what you might need whole classes and interfaces to do. <br />
+
 > **6. Its type system: static vs dynamic types** <br />
 > Swift is statically typed with no exceptions. Even extensions which are as close as one can get to a dynamic class have to be writen before compile time. However if you use Coaco than you gain access to the objective-c runtime enviroment and can therefor use its dynamic classes.<br />
+
 > **7. Strengths and weaknesses of the language** <br />
 >  Swifts biggest strength come from Apple's continued support of the language. It is clear that Apple wants Swift to become a significant part of the programming market and is working hard on developing it. The flexability that swift provides is also a major benefit being able to program in an object oriented setting and quickly switch to a functional style if needed can be amazing for efficiency. The biggest weakness Swift suffers from is the restriction of compatibility. Huge swaths of the programming market, windows machines and android devices are simply not accessable to Swift developers. <br />
