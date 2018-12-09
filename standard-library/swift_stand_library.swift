@@ -27,5 +27,9 @@ if parts.contains("cpu") {
 }
 
 ///Useful Functions
+///One of the most important function in the SSL
+print("hello")
+///  Count and ABS can be used to get specific values
+print(count(someNames))
+print(abs(-80))
 
-///Protocols
