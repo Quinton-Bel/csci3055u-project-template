@@ -111,10 +111,10 @@ if let userName = json[0]["user"]["name"].string {
 > **3. Symbol resolution and its support for closure** <br />
 > Swift suports similarly to block in C and Objective-C. In Swift if you want to create a closure you have to surround your potential function block with {} and assign the closure to some variable. Any function and scope can be converted into a unique closure. When converting a function to a closure you must remove the function declaration and use the **in** keyword as a  part of the closure declaration. If this function has no return value and no input variables we do not need to use the **in** keyword. See the code example for a better idea of how this works. <br />
 > **4. Scoping rules supported by the language: lexical vs dynamic scoping** <br />
->  <br />
+>  Swift is for the most part dymic scoping. With the use of closures and the **let** keyword it is possible to implment lexical scoped scoping. <br />
 > **5. Functional programming constructs either as part of the language or supported by the standard library of the runtime.** <br />
 >  <br />
 > **6. Its type system: static vs dynamic types** <br />
-> Swift is statically typed with no exceptions. Even extensions which are as close as one can get to a dynamic class have to be writen before compile time. However if you use Coaco than you gain access to the objective-c runtime enviroment and can therefor use its dynamic classes.
+> Swift is statically typed with no exceptions. Even extensions which are as close as one can get to a dynamic class have to be writen before compile time. However if you use Coaco than you gain access to the objective-c runtime enviroment and can therefor use its dynamic classes.<br />
 > **7. Strengths and weaknesses of the language** <br />
->  Swifts biggest strength<br />
+>  Swifts biggest strength come from Apple's continued support of the language. It is clear that Apple wants Swift to become a significant part of the programming market and is working hard on developing it. The flexability that swift provides is also a major benefit being able to program in an object oriented setting and quickly switch to a functional style if needed can be amazing for efficiency. The biggest weakness Swift suffers from is the restriction of compatibility. Huge swaths of the programming market, windows machines and android devices are simply not accessable to Swift developers. <br />
