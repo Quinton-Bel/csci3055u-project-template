@@ -15,7 +15,6 @@
 
 ## About the syntax
 
-> _give some code snippet of the language_
 **Variable Declaration**
 ```swift
     ///Declare a variable
