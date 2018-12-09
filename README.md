@@ -14,7 +14,7 @@
 >     - **Protocols:** as with clojure swift has support for some protocol oriented programming. Protocals allow for the extension of classes without ever having to have access to the original class. Protocols can be created in isolation and then be extended later for specific classes, this use of generic programming lends itself well to swift's flexability. 
 
 ## About the syntax
-
+> Here is a quick look at some of the various syntax available in Swift. For more details and examples you should look at the basic_syntax.swift file on this repo.
 **Variable Declaration**
 ```swift
     ///Declare a variable
