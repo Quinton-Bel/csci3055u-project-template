@@ -1,6 +1,7 @@
 import Foundation
 ///This application is a command line tool which takes a currency type and value
-///and returns that currency converted into bitcoin
+///and returns that currency converted into bitcoin. I used the foundation library which contains many
+///useful functions including some basic web fetching functionality.
 
 ///Gets the user required data
 print("Please enter the type of currency. For example use CAD for canadian dollars: ")
