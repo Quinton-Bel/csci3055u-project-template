@@ -13,7 +13,7 @@ var value = readLine()
 var urlString = "https://www.blockchain.com/tobtc?currency=" + curtype! + "&value=" + value!
 
 ///Fetches the data from the web containing the info on the conversion to bitcoin
-if let url = URL(string: "https://www.blockchain.com/tobtc?currency=CAD&value=49.99") {
+if let url = URL(string: urlString) {
     do {
         let contents = try String(contentsOf: url)
         ///Outputs the formatted results to the user
