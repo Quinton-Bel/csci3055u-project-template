@@ -9,14 +9,14 @@ print("Please enter the amount of that currency you wish to convert: ")
 var value = readLine()
 
 ///Sets the string for the url
-var urlString = "https://www.blockchain.info/tobtc?currency="+curtype+"&value=4"+value
+var urlString = "https://www.blockchain.com/tobtc?currency=" + curtype! + "&value=" + value!
 
 ///Fetches the data from the web containing the info on the conversion to bitcoin
-if let url = URL(string: "https://www.blockchain.info/tobtc?currency=CAD&value=49.99") {
+if let url = URL(string: "https://www.blockchain.com/tobtc?currency=CAD&value=49.99") {
     do {
         let contents = try String(contentsOf: url)
         ///Outputs the formatted results to the user
-        print(value+curtype+"is currently worth:   "+contents+" bitcoins")
+        print(value! + curtype! + " is currently worth:   " + contents + " bitcoins")
     } catch {
         print("Sorry data coule not be loaded")
     }
