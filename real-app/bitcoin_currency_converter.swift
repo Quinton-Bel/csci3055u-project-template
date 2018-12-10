@@ -3,9 +3,9 @@ import Foundation
 ///and returns that currency converted into bitcoin
 
 ///Gets the user required data
-print("Please enter the type of currency. For example use CAD for canadian dollars ")
+print("Please enter the type of currency. For example use CAD for canadian dollars: ")
 var curtype = readLine()
-print("Please enter the amount of that currency you wish to convert: ")
+print("Please enter the amount of that currency you wish to convert. For example use 49.99: ")
 var value = readLine()
 
 ///Sets the string for the url
